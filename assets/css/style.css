@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     border-radius: 10px;
 }
 
+.bg-progress {
+    background-color: #ff8c00 !important;
+}
+
 /*----------------------------------------------------------------- Footer: */
 
 .footer {
