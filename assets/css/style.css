@@ -4,25 +4,48 @@
 
 h1, h2, h3, h4, h5, h6, p, a, li {
     font-family: 'DM Sans', sans-serif !important;
+    color: white !important;
 }
 
 /*----------------------------------------------------------------- Header: */
 
 .header {
-    background-color: #001f3f !important;
     padding: 20px 0;
 }
 
 .header img {
-    width: 150px;
+    width: 120px;
 }
 
 /*----------------------------------------------------------------- Main: */
 
+.main {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/construction-image.jpg") rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .main img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 /*----------------------------------------------------------------- Footer: */
 
+.footer {
+    padding: 20px 0;
+}
+
+.footer p {
+    color: #001f3f !important;
+}
+
+.footer a {
+    color: #001f3f !important;
+}
