@@ -1,0 +1,28 @@
+/*----------------------------------------------------------------- General: */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+/*----------------------------------------------------------------- Header: */
+
+.header {
+    background-color: #001f3f !important;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 150px;
+}
+
+/*----------------------------------------------------------------- Main: */
+
+.main img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*----------------------------------------------------------------- Footer: */
+
